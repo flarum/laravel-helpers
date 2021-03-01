@@ -1,0 +1,15 @@
+{
+    "name": "flarum/laravel-helpers",
+    "description": "Implementations of common Laravel helpers that make it simper to use Laravel libraries with Flarum.",
+    "keywords": ["forum", "discussion"],
+    "homepage": "https://flarum.org/",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
