@@ -16,7 +16,7 @@ if (! function_exists('app')) {
      *
      * @param  string  $make
      * @param  array   $parameters
-     * @return mixed|\Illuminate\Foundation\Application
+     * @return mixed|\Illuminate\Container\Container
      */
     function app($make = null, $parameters = [])
     {
@@ -34,7 +34,6 @@ if (! function_exists('base_path')) {
      *
      * @param  string  $path
      * @return string
-     * @deprecated Will be removed in Beta.15.
      */
     function base_path($path = '')
     {
@@ -48,7 +47,6 @@ if (! function_exists('public_path')) {
      *
      * @param  string  $path
      * @return string
-     * @deprecated Will be removed in Beta.15.
      */
     function public_path($path = '')
     {
@@ -62,7 +60,6 @@ if (! function_exists('storage_path')) {
      *
      * @param  string  $path
      * @return string
-     * @deprecated Will be removed in Beta.15.
      */
     function storage_path($path = '')
     {
