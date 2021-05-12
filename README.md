@@ -1,5 +1,7 @@
 # Flarum Laravel Helpers
 
+**These helpers have been moved back to flarum/core, but deprecated perpetually. This package should not be used.**
+
 Some Laravel repos expect certain [Laravel Helpers](https://laravel.com/docs/8.x/helpers) to be available globally.
 This package collects some of these helpers for use by extensions.
 These helpers should NOT be used directly in Flarum extension code; they are available so that Laravel-based libraries that expect them to exist don't malfunction.
